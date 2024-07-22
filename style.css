@@ -27,8 +27,7 @@ body {
 }
 
 .navbar1 a:hover {
-    background-color: #fd6e006d;
-    color: black;
+    color: #FD6F00;
     border-radius: 5px;
 }
 
@@ -59,7 +58,7 @@ body {
 
 .designer {
     margin-left: 18%;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
     animation: slideInRight 1.5s 2.2s forwards;
 }
 
@@ -309,8 +308,12 @@ justify-content: center;
     flex-direction: column;
     justify-self: center;
     background-color: #f5e2d4;
-    margin-top: 25px;
-  
+    margin-top: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 h2 {
@@ -371,7 +374,8 @@ textarea {
     background-color: #e66b00;
 }
 
-.social-icons {
+.social-icons ,.social-icons1 {
+font-size: 15px;
     margin-top: 20px;
 }
 
@@ -384,6 +388,10 @@ textarea {
     width: 24px;
     height: 24px;
     margin-right: 35px;
+}
+.social-icons1 img {
+   margin-right: 10px;
+
 }
 
 .content-section {
