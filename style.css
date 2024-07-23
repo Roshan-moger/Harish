@@ -297,7 +297,9 @@ justify-content: center;
     cursor: not-allowed;
 }
 
-
+h3{
+    font-weight: bolder;
+}
 /* Contact Page */
 .contact-form-container {
     background-color: #fff;
@@ -324,12 +326,15 @@ h2 {
 
 .email {
     color: #ff7a00;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .instructions {
-    color: #666;
-    margin-bottom: 20px;
+    color: #6666669f;
+  
+   
 }
 .contact-details{
     width: 500px;
@@ -361,7 +366,7 @@ textarea {
     color: #fff;
     border: none;
     margin-top: 25px;
-    padding: 10px 50px;
+    padding: 10px 75px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
@@ -441,4 +446,7 @@ footer p{
 footer span{
     color:#FD6F00 ;
     font-weight: 550;
+}
+.row h3{
+    font-weight: bold;
 }
