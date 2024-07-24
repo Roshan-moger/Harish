@@ -156,6 +156,8 @@ h3 {
     margin-top: 25px;
 }
 
+.button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 .button a {
     text-decoration: none;
     color: white;
@@ -436,7 +438,11 @@ font-size: 15px;
     cursor: pointer;
     background-color: white;
     color: rgba(128, 128, 128, 0.498);
- 
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .pagination1 button.active {
     color: #FD6F00;
@@ -464,4 +470,7 @@ footer span{
 .row h3{
     font-weight: bold;
     margin-bottom: 15px;
+}
+h1{
+    color: #2b2b2b;
 }
