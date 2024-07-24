@@ -164,6 +164,9 @@ h3 {
     margin-top: 120px;
   
 }
+.work-button h1{
+font-weight: bold;  
+}
 .col-md-5{
     display: flex;
 }
@@ -323,9 +326,10 @@ h3{
     -o-border-radius: 10px;
 }
 
-h2 {
+h1 {
     color: #333;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .email {
@@ -393,9 +397,13 @@ font-size: 15px;
     margin: 0 10px;
     text-decoration: none;
 }
+.social-icons1 a {
+    margin: 0 10px;
+    text-decoration: none;
+}
 
 .social-icons img {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .social-icons1 img {
    margin-right: 10px;
@@ -453,4 +461,5 @@ footer span{
 }
 .row h3{
     font-weight: bold;
+    margin-bottom: 15px;
 }
