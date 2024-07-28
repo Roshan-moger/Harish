@@ -6,38 +6,54 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
     <title>Harish Moger</title>
 </head>
 <body>
-    <div class="container-1 container-fluid" id="home">
+    <div class="navbar">
         <div class="container">
             <div class="navbar1">
+                <button class="hamburger" id="hamburger">
+                    ☰
+                </button>
                 <div class="nav-links" id="nav-links">
                     <a class="active" href="#home">About Me</a>
                     <a href="#work-button" id="work1">Work</a>
                     <a href="#contact">Contact</a>
-                    <a href="#services" class="service">Download CV</a>
+                    <a href="/Resume (1).pdf"  target="_blank" class="service">Download CV</a>
                 </div>
             </div>
-            <div class="information">
+        </div>  
+    </div>
+    <div class="hero-section"> 
+           
+        <div class="container-1 container-fluid" id="home" bis_skin_checked="1">
+        <div class="container" bis_skin_checked="1">
+            <div class="image-container" bis_skin_checked="1">
+            
+                <img src="./Banner image me 1.webp" alt="abc" class="photoImg">
+            </div>
+            <div class="information" bis_skin_checked="1">
                 <h2 class="hi">Hi, I am </h2>
                 <h1 class="name">Harish Moger</h1>
-                <h1 class="UI">UI & UX </h1>
+                <h1 class="UI">UI &amp; UX </h1>
                 <h1 class="designer"> Designer</h1>
                 <p id="home" class="col-md-6 col-sm-12 about">
-                    Currently designing digital experiences at Pixelmax Softech with over 1 year of experience in interaction and visual design, specializing in user-centric, intuitive, and visually appealing interfaces. Previously, a UI/UX Designer at Invensis Technology, focused on enhancing user engagement and accessibility.
+                    Currently designing digital experiences at Pixelmax Softech with over 1 year of experience in interaction and visual design, specializing in user-centric, intuitive, and visually appealing interfaces. Previously, a UI/UX Designer at Invensis Technology, focused on enhancing user engagement and&nbsp;accessibility.
                 </p>
-                <div class="social-icons">
-                    <a href="#"><img src="Linked in  svg.svg" alt="linkedin"></a>
-                    <a href="#"><img src="Behance svg.svg" alt="Behance"></a>
-                    <a href="#"><img src="Dribble svg.svg" alt="Dribbble"></a>
+                <div class="social-icons" bis_skin_checked="1">
+                    <a href="https://www.linkedin.com/in/harish-moger-97531618b/"><img src="Linked in  svg.svg" alt="linkedin"></a>
+                    <a href="https://www.behance.net/harishmoger2"><img src="Behance svg.svg" alt="Behance"></a>
+                    <a href="https://dribbble.com/HarishKrishna0_-"><img src="Dribble svg.svg" alt="Dribbble"></a>
                 </div>
             </div>
         </div>
-        <div>
-            <img src="./Banner image me 1.webp" alt="" class="photoImg">
-        </div>
     </div>
+</div>
+
+
     
 <div id="work">
     <div class="container skilshead"> 
@@ -121,7 +137,7 @@
         <div class="row">
             <div class="col-md-7 col-sm-12 image2">
                 
-                <img src="./Coverpage 5.png" alt="" class="Coverpage1">
+                <img src="./Coverpage 5.png" alt="Invensis Technology Pvt. Ltd." class="Coverpage1">
             </div>
             <div class="col-md-5 col-sm-12">
                 <div class="description">
@@ -140,26 +156,21 @@
     </div>
     
     <div class="container">
-        <h1  class="cover1">02</h1>
+        <h1 class="cover1">02</h1>
         <div class="row">
-            
-          
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-
-                <div class="container d-inline align-items-center">
-                    <h3>V2 Royals Website
-                    </h3>
-                    <p class="explain">I designed a versatile website to cater to a diverse range of services, including real estate properties, corporate event management, and school competition events (Spell Bee). The project involved creating a cohesive and user-friendly interface that seamlessly integrates these distinct services.</p>
-
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2217-3343%26viewport%3D1355%252C1951%252C0.36%26t%3Dr3Ot5bQ5SXwEmVhT-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a></button>
-                    
-                </div> 
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./Coverpage.png" alt="versatile website" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./Coverpage.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container d-inline align-items-center">
+                        <h3>V2 Royals Website</h3>
+                        <p class="explain">I designed a versatile website to cater to a diverse range of services, including real estate properties, corporate event management, and school competition events (Spell Bee). The project involved creating a cohesive and user-friendly interface that seamlessly integrates these distinct services.</p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2217-3343%26viewport%3D1355%252C1951%252C0.36%26t%3Dr3Ot5bQ5SXwEmVhT-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a>
+                        </button>
+                    </div> 
+                </div>
             </div>
         </div>
     </div>
@@ -169,7 +180,7 @@
         <div class="row">
             <div class="col-md-7 col-sm-12 image2">
                 
-                <img src="./03.png" alt="" class="Coverpage1">
+                <img src="./03.png" alt="Udyamcart Mobile Application" class="Coverpage1">
             </div>
             <div class="col-md-5 col-sm-12">
                 <div class="description">
@@ -189,28 +200,23 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     </div>
     
     <div class="container">
-        <h1  class="cover1">04</h1>
+        <h1 class="cover1">04</h1>
         <div class="row">
-            
-           
-
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-
-                <div class="container d-inline align-items-center">
-                    <h3>Udyamcart Mobile App Design for B2B and B2C Services
-                    </h3>
-                    <p class="explain">
-                        I designed a comprehensive mobile application for Udyamcart, an online store offering a wide range of products including groceries, electronics, fashion items, office stationery, kitchen items, and more. The app caters to both B2B and B2C services, providing a seamless shopping experience for all users.</p>
-
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ff9OoXvzduAjgZOVOYbkrZ5%2FPixelmax-Softech%3Fpage-id%3D97%253A4%26node-id%3D346-1355%26viewport%3D-1226%252C-407%252C0.2%26t%3DtSIvCcSDwGfHSMhT-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D151%253A1821">View Project</a></button>
-                    
-                </div> 
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./Coverpage 3.png" alt="mobile application for Udyamcart" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./Coverpage 3.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container d-inline align-items-center">
+                        <h3>Udyamcart Mobile App Design for B2B and B2C Services</h3>
+                        <p class="explain">
+                            I designed a comprehensive mobile application for Udyamcart, an online store offering a wide range of products including groceries, electronics, fashion items, office stationery, kitchen items, and more. The app caters to both B2B and B2C services, providing a seamless shopping experience for all users.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ff9OoXvzduAjgZOVOYbkrZ5%2FPixelmax-Softech%3Fpage-id%3D97%253A4%26node-id%3D346-1355%26viewport%3D-1226%252C-407%252C0.2%26t%3DtSIvCcSDwGfHSMhT-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D151%253A1821">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -269,26 +275,23 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     </div>
     
     <div class="container">
-        <h1  class="cover1">O7</h1>
+        <h1 class="cover1">O7</h1>
         <div class="row">
-            
-
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-                <div class="container d-inline align-items-center">
-                    <h3>Responsive Interior Design Website Landing Page
-                    </h3>
-                    <p class="explain">I designed a responsive landing page for an interior design website, ensuring a seamless and engaging user experience across all devices. The page features a modern, aesthetic layout with intuitive navigation, high-quality visuals, and clear calls-to-action.
-                    </p>
-
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2691-2292%26viewport%3D-1025%252C607%252C0.06%26t%3DtPsayiPPRrcUyYje-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a></button>
-                    
-                </div> 
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./07.png" alt="Responsive Interior Design Website" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./07.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container d-inline align-items-center">
+                        <h3>Responsive Interior Design Website Landing Page</h3>
+                        <p class="explain">
+                            I designed a responsive landing page for an interior design website, ensuring a seamless and engaging user experience across all devices. The page features a modern, aesthetic layout with intuitive navigation, high-quality visuals, and clear calls-to-action.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2691-2292%26viewport%3D-1025%252C607%252C0.06%26t%3DtPsayiPPRrcUyYje-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -318,30 +321,26 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     </div>
     
     <div class="container">
-        <h1  class="cover1">09</h1>
+        <h1 class="cover1">09</h1>
         <div class="row">
-            
-           
-
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-                <div class="container d-inline align-items-center">
-                    <h3>Conference Website Landing Page Design
-                    </h3>
-                    <p class="explain">
-                        I designed a dynamic landing page for a conference website, ensuring an engaging and informative user experience. The page includes key features such as event highlights, speaker profiles, agenda details, and easy registration options. This project demonstrates my ability to create effective landing pages that capture the essence of the event, attract attendees, and facilitate user engagement.</p>
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2682-2020%26viewport%3D-1025%252C607%252C0.06%26t%3DtPsayiPPRrcUyYje-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580" >View Project</a></button>
-                    
-                </div> 
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./09.png" alt="Conference Website" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./09.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container d-inline align-items-center">
+                        <h3>Conference Website Landing Page Design</h3>
+                        <p class="explain">
+                            I designed a dynamic landing page for a conference website, ensuring an engaging and informative user experience. The page includes key features such as event highlights, speaker profiles, agenda details, and easy registration options. This project demonstrates my ability to create effective landing pages that capture the essence of the event, attract attendees, and facilitate user engagement.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2682-2020%26viewport%3D-1025%252C607%252C0.06%26t%3DtPsayiPPRrcUyYje-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
     <div class="container">
         <h1  class="cover2">10</h1>
         <div class="row">
@@ -370,25 +369,23 @@ I designed the landing page for the Udyamcart mobile application, an online stor
 </div>
 <div class="page" id="page3">
     <div class="container">
-        <h1  class="cover1">11</h1>
+        <h1 class="cover1">11</h1>
         <div class="row">
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-
-                <div class="container">
-                    <h3>Marketing and Sales Dashboard Design
-                    </h3>
-                    <p class="explain">
-                        I designed a comprehensive dashboard to track marketing and sales performance, including metrics for orders, customers, revenue, and profit. The dashboard features a clean, intuitive layout that allows users to easily analyze and visualize key data points. This project showcases my ability to create functional and visually appealing dashboards that provide valuable insights and support data-driven decision-making for businesses.
-                    </p>
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2682-1871%26viewport%3D-1025%252C607%252C0.06%26t%3DtPsayiPPRrcUyYje-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580" target="_blank">View Project</a></button>
-                    
-                </div>  
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./11.png" alt="Marketing and Sales Dashboard" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./11.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container">
+                        <h3>Marketing and Sales Dashboard Design</h3>
+                        <p class="explain">
+                            I designed a comprehensive dashboard to track marketing and sales performance, including metrics for orders, customers, revenue, and profit. The dashboard features a clean, intuitive layout that allows users to easily analyze and visualize key data points. This project showcases my ability to create functional and visually appealing dashboards that provide valuable insights and support data-driven decision-making for businesses.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2682-1871%26viewport%3D-1025%252C607%252C0.06%26t%3DtPsayiPPRrcUyYje-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -420,26 +417,23 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     </div>
     
     <div class="container">
-        <h1  class="cover1">13</h1>
+        <h1 class="cover1">13</h1>
         <div class="row">
-
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-
-                <div class="container d-inline align-items-center">
-                    <h3>Ayour Mobile Application Case Study
-                    </h3>
-                    <p class="explain">
-                        I designed the mobile application for Ayour, a brand specializing in ayurvedic cosmetic products. The app features a user-friendly interface, seamless navigation, and visually appealing design elements that align with the brand's identity. Key functionalities include product browsing, detailed descriptions, user reviews, and easy purchasing options.
-</p>
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fz1hiAJWMqbYQmHrQJvL3ds%2FVISUAL-DESIGN%3Fpage-id%3D1082%253A4424%26node-id%3D1844-11612%26viewport%3D429%252C271%252C0.21%26t%3DtGdMJMVKomeTSV0T-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26starting-point-node-id%3D2149%253A6833">View Project</a></button>
-                </div>
-                    
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image2">
+                <img src="./13.png" alt="Ayour Mobile Application" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image2">
-                
-                <img src="./13.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container d-inline align-items-center">
+                        <h3>Ayour Mobile Application Case Study</h3>
+                        <p class="explain">
+                            I designed the mobile application for Ayour, a brand specializing in ayurvedic cosmetic products. The app features a user-friendly interface, seamless navigation, and visually appealing design elements that align with the brand's identity. Key functionalities include product browsing, detailed descriptions, user reviews, and easy purchasing options.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fz1hiAJWMqbYQmHrQJvL3ds%2FVISUAL-DESIGN%3Fpage-id%3D1082%253A4424%26node-id%3D1844-11612%26viewport%3D429%252C271%252C0.21%26t%3DtGdMJMVKomeTSV0T-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26starting-point-node-id%3D2149%253A6833">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -471,28 +465,23 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     </div>
     
     <div class="container">
-        <h1  class="cover1">15</h1>
+        <h1 class="cover1">15</h1>
         <div class="row">
-            
-
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-
-                <div class="container d-inline align-items-center">
-                    <h3>Blockchain Book Design
-
-                    </h3>
-                    <p class="explain">
-                        I designed a comprehensive book layout for a detailed publication on blockchain technology. The project involved creating an engaging and visually appealing design that enhanced the readability and understanding of complex concepts. My work included cover design, typography, chapter layouts, infographics, and visual elements that align with the futuristic and technical theme of blockchain
-</p>
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D%26node-id%3D2854-4005%26viewport%3D-3486%252C1100%252C0.09%26t%3Dk6DeVWJ7hCuX6S67-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a></button>
-                
-                </div> 
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./15.png" alt="Blockchain Book Design" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./15.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container d-inline align-items-center">
+                        <h3>Blockchain Book Design</h3>
+                        <p class="explain">
+                            I designed a comprehensive book layout for a detailed publication on blockchain technology. The project involved creating an engaging and visually appealing design that enhanced the readability and understanding of complex concepts. My work included cover design, typography, chapter layouts, infographics, and visual elements that align with the futuristic and technical theme of blockchain.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D%26node-id%3D2854-4005%26viewport%3D-3486%252C1100%252C0.09%26t%3Dk6DeVWJ7hCuX6S67-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -524,27 +513,23 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     </div>
     
     <div class="container">
-        <h1  class="cover1">17</h1>
+        <h1 class="cover1">17</h1>
         <div class="row">
-            
-           
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-
-                <div class="container d-inline align-items-center">
-                    <h3>Brochure Design for R2 Cleaning Services
-                    </h3>
-                    <p class="explain">
-                        I created a dynamic and visually engaging brochure design for Meta's innovative VR technology. The project involved developing a layout that highlights the cutting-edge features and applications of VR technology. I used modern design elements, vibrant colors, and immersive visuals to capture the essence of Meta's innovation.
-                    </p>
-                    <button class="button"> <a target="_blank" href="https://docs.google.com/presentation/d/1xbu3mfj0JLMeVRjQGwjllsWD8ntMVee1cmlV3HFHRmE/edit?usp=sharing">View Project</a></button>
-                    
-                </div>
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./17.png" alt="Brochure Design for R2 Cleaning Services" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./17.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container d-inline align-items-center">
+                        <h3>Brochure Design for R2 Cleaning Services</h3>
+                        <p class="explain">
+                            I created a dynamic and visually engaging brochure design for Meta's innovative VR technology. The project involved developing a layout that highlights the cutting-edge features and applications of VR technology. I used modern design elements, vibrant colors, and immersive visuals to capture the essence of Meta's innovation.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://docs.google.com/presentation/d/1xbu3mfj0JLMeVRjQGwjllsWD8ntMVee1cmlV3HFHRmE/edit?usp=sharing">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -576,30 +561,27 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     </div>
     
     <div class="container">
-        <h1  class="cover1">19</h1>
+        <h1 class="cover1">19</h1>
         <div class="row">
-            
-          
-            <div class="col-md-5 col-sm-12">
-                <div class="description">
-
-                <div class="container">
-                    <h3>Winter Collection Social Media Post
-                    </h3>
-                    <p class="explain">
-                        I designed an eye-catching social media post to promote the winter collection. The project focused on creating visually appealing graphics that capture the essence of the season and the stylish new collection. Using a mix of warm colors, cozy imagery, and modern typography, the post effectively engages the audience and encourages interaction.
-                        </p>
-                    <button class="button"> <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2861-4892%26viewport%3D-20263%252C4307%252C0.4%26t%3D4jO3G6Ap3KA0xkAa-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a></button>
-                    
-                </div>
-                </div>
+            <div class="col-md-7 col-sm-12 order-1 order-md-2 image1">
+                <img src="./19.png" alt="Winter Collection Social Media Post" class="Coverpage1">
             </div>
-            <div class="col-md-7 col-sm-12 image1">
-                
-                <img src="./19.png" alt="" class="Coverpage1">
+            <div class="col-md-5 col-sm-12 order-2 order-md-1">
+                <div class="description">
+                    <div class="container">
+                        <h3>Winter Collection Social Media Post</h3>
+                        <p class="explain">
+                            I designed an eye-catching social media post to promote the winter collection. The project focused on creating visually appealing graphics that capture the essence of the season and the stylish new collection. Using a mix of warm colors, cozy imagery, and modern typography, the post effectively engages the audience and encourages interaction.
+                        </p>
+                        <button class="button">
+                            <a target="_blank" href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV4mBFcCTLnGI297e2IwyaG%2FWEB-DESIGN-TATTOO%3Fpage-id%3D0%253A1%26node-id%3D2861-4892%26viewport%3D-20263%252C4307%252C0.4%26t%3D4jO3G6Ap3KA0xkAa-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D771%253A1580">View Project</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     
   
 </div>
@@ -1133,22 +1115,186 @@ I designed the landing page for the Udyamcart mobile application, an online stor
     <p class="email">harishmoger03@gmail.com</p>
     <p class="instructions">Feel free to contact me with any inquiries or questions!</p>
     <br>
-    <form>
-        <div class="form-group">
-            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+   <form
+    action="https://forms.zohopublic.in/vaibhavbi1435/form/harishForm/formperma/2T9Rwh7keYSNP2IIahFfqiv2fdgBKgCoGHThE5yR8XQ/htmlRecords/submit"
+    name="form" id="contact-form"
+    method="POST"
+    onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();'
+    accept-charset="UTF-8"
+    enctype="multipart/form-data"
+    id="form"
+  >
+    <input
+      type="hidden"
+      name="zf_referrer_name"
+      value=""
+    />
+    <input
+      type="hidden"
+      name="zf_redirect_url"
+      value=""
+    />
+    
+    <input
+      type="hidden"
+      name="zc_gad"
+      value=""
+    />
+    <div class="zf-templateWrapper">
+ 
+      <div class="zf-subContWrap zf-topAlign">
+ 
+          <div class="form-group">
+           
+            <div class="zf-tempContDiv">
+              <span>
+                <input
+                  type="text"
+                  name="SingleLine"
+                  checktype="c1"
+                  value=""
+                  maxlength="255"
+                  fieldType="1"
+                  placeholder="Full Name"
+                  class="input"
+                  id="first-name" 
+              /></span>
+              <p
+                id="SingleLine_error"
+                class="zf-errorMessage"
+                style="display: none"
+              >
+                Invalid value
+              </p>
+            </div>
+            
+         
+     
+            
+            <div class="zf-tempContDiv">
+              <span>
+                <input
+                  fieldType="9"
+                  type="text"
+                  maxlength="255"
+                  name="Email"
+                  checktype="c5"
+                  value=""
+                  placeholder="Email"
+                  class="input"
+                  id="email"
+              /></span>
+              <p
+                id="Email_error"
+                class="zf-errorMessage"
+                style="display: none"
+              >
+                Invalid value
+              </p>
+            </div>
+         
         </div>
-        <div class="form-group">
-            <input type="email" id="email" name="email" placeholder="Email" required>
-            <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" required>
+    
+          
+          <div class="form-group">
+            <div class="zf-tempContDiv zf-phonefld">
+              <div class="zf-phwrapper zf-phNumber">
+                <span>
+                  <input
+                    type="text"
+                    compname="PhoneNumber"
+                    name="PhoneNumber_countrycode"
+                    maxlength="20"
+                    checktype="c7"
+                    value=""
+                    phoneFormat="1"
+                    isCountryCodeEnabled="false"
+                    fieldType="11"
+                    id="international_PhoneNumber_countrycode"
+                    valType="number"
+                    phoneFormatType="1"
+                    placeholder="Phone Number"
+                    class="input"
+                    id="phone"
+                  />
+                 
+                </span>
+                
+              </div>
+              <p
+                id="PhoneNumber_error"
+                class="zf-errorMessage"
+                style="display: none"
+              >
+                Invalid value
+              </p>
+            </div>
+           
+          
+      
+        
+           
+            <div class="zf-tempContDiv">
+              <span>
+                <input
+                  type="text"
+                  name="SingleLine1"
+                  checktype="c1"
+                  value=""
+                  maxlength="255"
+                  fieldType="1"
+                  placeholder="Address"
+                  class="input"
+                  id="address"
+              /></span>
+              <p
+                id="SingleLine1_error"
+                class="zf-errorMessage"
+                style="display: none"
+              >
+                Invalid value
+              </p>
+            </div>
+            
         </div>
-        <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
-        <button type="submit" class="submit">Submit</button>
-    </form>
+        
+          
+            <div class="zf-tempContDiv">
+              <span>
+                <textarea
+                  name="MultiLine"
+                  checktype="c1"
+                  maxlength="65535"
+                  placeholder="Message"
+                  id="message"
+                ></textarea>
+              </span>
+              <p
+                id="MultiLine_error"
+                class="zf-errorMessage"
+                style="display: none"
+              >
+                Invalid value
+              </p>
+            </div>
+         
+          
+        
+        
+      </div>
+    
+      
+        
+          <button class="submit">Submit</button>
+        
+     
+    </div>
+    <!-- 'zf-templateWrapper' ends -->
+  </form>
     <div class="social-icons1">
-        <a href="#"><img src="linked in 1.svg" alt="linkedin"></a>
-        <a href="#"><img src="Behance 1.svg" alt="Behance"></a>
-        <a href="#"><img src="Dribble 1.svg" alt="Dribbble"></a>
+        <a href="https://www.linkedin.com/in/harish-moger-97531618b/"><img src="linked in 1.svg" alt="linkedin"></a>
+        <a href="https://www.behance.net/harishmoger2"><img src="Behance 1.svg" alt="Behance"></a>
+        <a href="https://dribbble.com/HarishKrishna0_-"><img src="Dribble 1.svg" alt="Dribbble"></a>
     </div>
     <br><br>
 </div>  
@@ -1160,3 +1306,8 @@ I designed the landing page for the Udyamcart mobile application, an online stor
 </footer>
 </body>
 </html>
+
+
+
+   
+    
