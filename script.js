@@ -276,3 +276,25 @@ $(document).ready(function () {
     },
   });
 });
+
+
+// Create the arrow element
+const scrollToTopButton = document.createElement("div");
+scrollToTopButton.id = "scrollToTop";
+scrollToTopButton.innerHTML = "&#x21e1;"; // HTML code for arrow
+document.body.appendChild(scrollToTopButton);
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 700) { // Show button after 300px scroll
+    scrollToTopButton.style.display = "block";
+  } else {
+    scrollToTopButton.style.display = "none";
+  }
+});
+
+scrollToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});

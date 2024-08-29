@@ -8,7 +8,7 @@ body {
 
 .container-1 {
   background-color: #f5e2d4;
-  height: 85vh;
+  padding-bottom: 80px;
 }
 
 .navbar1 {
@@ -347,7 +347,6 @@ h1 {
   margin-bottom: 25px;
 }
 
-input,
 textarea {
   width: 48%;
   padding: 10px;
@@ -483,6 +482,28 @@ h1 {
 .navbar > .container {
   justify-content: flex-end;
 }
+
+#scrollToTop {
+  display: none;
+  /*Hiddenbydefault*/position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  /*Sitontop*/background-color: #fd6f00;
+  /*Darkbackground*/color:#fff ;
+  /*Whitetext*/padding: 5px 15px;
+  /*Somepadding*/border-radius: 50%;
+  /*Roundedcorners*/cursor: pointer;
+  /*Pointer/handicon*/font-size: 24px;
+  /*Increasefontsize*/transition: opacity 0.3s ease, transform 0.3s ease;
+
+}
+
+#scrollToTop:hover {
+  background-color: #ef7d25; /* Darker background on hover */
+  transform: scale(1.1); /* Slightly larger on hover */
+}
+
 @media only screen and (max-width: 568px) {
   .skills-container {
     display: flex !important;
