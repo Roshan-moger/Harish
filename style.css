@@ -493,8 +493,8 @@ h1 {
   text-align: center;
   /*Sitontop*/background-color: #fd6f00;
   /*Darkbackground*/color:#fff ;
-  /*Whitetext*/padding: 3px 17px;
-  /*Somepadding*/border-radius: 50%;
+  /*Whitetext*/padding: 5px 20px;
+  /*Somepadding*/border-radius: 10px;
   /*Roundedcorners*/cursor: pointer;
   /*Pointer/handicon*/font-size: 24px;
   /*Increasefontsize*/transition: opacity 0.3s ease, transform 0.3s ease;
