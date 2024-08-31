@@ -489,14 +489,18 @@ h1 {
   bottom: 30px;
   right: 30px;
   z-index: 1000;
+
+  text-align: center;
   /*Sitontop*/background-color: #fd6f00;
   /*Darkbackground*/color:#fff ;
-  /*Whitetext*/padding: 5px 15px;
+  /*Whitetext*/padding: 3px 17px;
   /*Somepadding*/border-radius: 50%;
   /*Roundedcorners*/cursor: pointer;
   /*Pointer/handicon*/font-size: 24px;
   /*Increasefontsize*/transition: opacity 0.3s ease, transform 0.3s ease;
-
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  font-size: 35px;
+  box-sizing: border-box;
 }
 
 #scrollToTop:hover {
